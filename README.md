@@ -74,6 +74,7 @@ There are two ways of invoking an action: Blocking mode - similar to a synchrono
 Since we invoked the function in a non-blocking mode (because we haven’t added the ‘--blocking’ parameter), the command returned immediately, but it is executing in the background. Use the following command to check the result:
  
 ```wsk activation result <action id>```
+
 ```Ex: wsk activation result f4df0d1dcb12488396978d2cda832b09```
 
 4. Check out the logs:
@@ -83,6 +84,7 @@ Command to check out the logs:
 One can check out for the logs using the following command:
 
 ```wsk activation logs <action id>```
+
 ```Ex: wsk activation logs f4df0d1dcb12488396978d2cda832b09```
 
 # Migration to other serverless platforms
